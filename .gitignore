@@ -1,0 +1,44 @@
+# ── .NET Build Çıktıları ──────────────────────────────────────────
+bin/
+obj/
+out/
+
+# ── Visual Studio / VS Code ───────────────────────────────────────
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docview
+
+# ── Rider / JetBrains ─────────────────────────────────────────────
+.idea/
+*.DotSettings.user
+
+# ── NuGet ─────────────────────────────────────────────────────────
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ── Blazor WASM Yayın Çıktısı ─────────────────────────────────────
+publish/
+wwwroot/css/bootstrap/
+
+# ── Ortam / Gizli Dosyalar ────────────────────────────────────────
+.env
+.env.local
+appsettings.Development.json
+**/secrets.json
+
+# ── İşletim Sistemi ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Log Dosyaları ─────────────────────────────────────────────────
+*.log
+*.tmp
